@@ -1,14 +1,13 @@
-package com.sparta.personal_homework_spring.diary.dto;
+package com.sparta.personal_homework_spring.todo.dto;
 
 import lombok.Getter;
 
 @Getter
-public class DiaryRequestDto {
+public class TodoRequestDto {
     private String title;
     private String contents;
     private String manager;
     private int password;
-    private int date;
 }
 
 
